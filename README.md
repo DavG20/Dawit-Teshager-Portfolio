@@ -1,4 +1,4 @@
-# Surafel Kindu Portfolio
+# Dawit Teshager Portfolio
 
 - My work experience
 - Skills
@@ -6,6 +6,4 @@
 - Certificates
 - Resume
 - Contact information
-# Dawit-Teshager-Portfolio
-# Dawit-Teshager-Portfolio
-# Dawit-Teshager-Portfolio
+ 

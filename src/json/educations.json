@@ -1,0 +1,28 @@
+{
+    "educations": [
+        {
+            "name": "Software Engineering",
+            "org": ["Addis Ababa University","AAiT"],
+            "date": "July 2023",
+            "id": "8LDRVMWTKQ4J",
+            "link": "http://www.aait.edu.et/",
+            "techs": [
+                "Machine Learning",
+                "OOP", "DSA" , "Web Development", "Database", "Software Engineering" 
+            ]
+        },
+        {
+            "name": "Data Structure And Algorithm",
+            "org": ["Africa To Silicon Valley", "A2SV"],
+            "date": "August 2023",
+            "id": "QETPH9JWTDAN",
+            "link": "https://a2sv.org/",
+            "techs": [
+                "Data Structure",
+                "Algorithm", "Problem Solving", "DSA"
+            ]
+        }
+        
+        
+    ]
+}

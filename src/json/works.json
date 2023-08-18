@@ -1,0 +1,58 @@
+{
+    "works": [
+        {
+            "id": 0,
+            "image": "santimpay.png",
+            "name": "Santim  Pay",
+            "shortName": "SantimPay",
+            "title": "Golang Backend Developer",
+            "link": "https://santimpay.com/",
+            "from": "September 2022",
+            "to": "January 2023",
+            "desc": "I was responsible for developing the backend of the Santim Pay mobile application using Golang",
+            "details": "Santim Pay is a mobile application that helps people to send money to their loved ones in Ethiopia. I was responsible for developing the backend of the Santim Pay mobile application using Golang.",
+            "techs": [
+                "VS Code",
+                "Git",
+                "Docker",
+                "Golang"
+            ],
+            "tech_icons":[
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/go/go-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original-wordmark.svg"
+                
+            ],
+            "source": "#"
+        },
+        {
+            "id": 1,
+            "image": "Eskalate.png",
+            "name": "Eskalate Africa",
+            "shortName": "Eskalate",
+            "title": ".NET Backend Developer",
+            "link": "https://eskalate.io/",
+            "from": "Junuary 2023",
+            "to": "August 2023",
+            "desc": "I was responsible for developing the backend of A2SV community portal using .NET",
+            "details": "A2SV  is a community portal that helps young Ethiopian to learn about data structure and algorithm. I was responsible for developing the backend of the A2SV community portal using .NET.",
+            "techs": [
+                ".NET",
+                "Docker",
+                "Git",
+                "C#",
+                "PostgreSQL"
+                
+            ],
+            "tech_icons":[
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/dot-net/dot-net-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/csharp/csharp-original.svg"
+                
+            ],
+            "source": ""
+        }
+       
+    ]
+}

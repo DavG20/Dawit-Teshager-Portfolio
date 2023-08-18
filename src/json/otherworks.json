@@ -1,0 +1,29 @@
+{
+    "otherworks": [
+        {
+            "id":0,
+            "title": "Negarit Chat App",
+            "description": "A chat app  built using flutter and the backend is built using Golang...",
+            "link": "",
+            "github": "https://github.com/DavG20/Negarit_API",
+            "techs": [
+                "Flutter",
+                "Golang"
+            ]
+        },
+        {
+            "id":1,
+            "title": "Tikus Events Mobile Application (in-progress)",
+            "description": "Event posting and registering app. Users Login and Create their profile, they can Create, Update, Delete events...",
+            "link": "",
+            "github": "https://github.com/DavG20/Tikus_Event_API",
+            "techs": [
+                "Flutter",
+                "Golang",
+                "Postgre-SQL",
+                "MongoDB"
+            ]
+        }
+        
+    ]
+}
