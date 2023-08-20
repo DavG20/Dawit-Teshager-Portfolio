@@ -1,8 +1,7 @@
 import LandingPage from "./LandingPage";
-import { ResumePage, AmhNlpPage } from "./components";
+import { ResumePage } from "./components";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="resume" element={<ResumePage />} />
-          <Route path="amh-nlp" element={<AmhNlpPage />} />
         </Routes>
       </BrowserRouter>
     </div>

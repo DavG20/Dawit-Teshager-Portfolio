@@ -6,7 +6,6 @@ import Contact from "./HomePage/Contact";
 import ResumePage from "./ResumePage/ResumePage";
 import Experience from "./HomePage/Experience";
 import Education from "./HomePage/Education";
-import AmhNlpPage from "./AmhNlpPage/AmhNlpPage";
 
 export {
   AppBar,
@@ -15,7 +14,6 @@ export {
   Contact,
   ResumePage,
   Experience,
-  Education ,
+  Education,
   ResumeButton,
-  AmhNlpPage,
 };
