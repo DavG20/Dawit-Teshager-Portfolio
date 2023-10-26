@@ -1,6 +1,6 @@
 // import Spline from '@splinetool/react-spline';
 
-import profile from "../../asset/profile.png";
+import profile from "../../asset/profile.JPG";
 
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 
@@ -93,12 +93,14 @@ function HomePage() {
             <br />
             <div className="flex justify-center">
               <div className="font-roboto font-normal text-md md:text-lg text-slate-500 lg:w-2/3 text-justify md:text-center">
-                I'm Diligent and experienced software engineer with expertise in
-                Golang and .NET backend technologies.Passionate about solving
-                problems and driving innovation in advanced environments. Eager
-                to join a dynamic team and deliver high-quality solutions for
-                global clients. Committed to continuous learning and
-                collaborative success.
+                I'm Diligent and experienced software engineer with over 3 years
+                of proven expertise in Golang, .NET backend technologies,
+                Django, and React. Passionate about solving problems and driving
+                innovation in advanced environments. Eager to join a dynamic
+                team and deliver high-quality solutions for global clients.
+                Committed to continuous learning and collaborative success.
+                Additionally, I am dedicated to rapidly learning and mastering
+                new programming languages when necessary.
               </div>
             </div>
 
