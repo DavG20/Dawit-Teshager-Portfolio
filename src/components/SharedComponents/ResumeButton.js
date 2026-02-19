@@ -7,7 +7,7 @@ function ResumeButton() {
         RESUME
       </div>
       <a
-        href="https://drive.google.com/file/d/1l80GvQE_gCqArp5DDrogEYuFW9yUCvFa/view?usp=sharing"
+        href="https://drive.google.com/file/d/1K0DyssfoCuTG5za7SLXGA8ePW1pt93cd/view?usp=sharing"
         className="bg-orange-dark rounded-full justify-center items-center px-4 py-4 hover:scale-110 duration-200"
       >
         <FiFileText className="text-white text-xl" />

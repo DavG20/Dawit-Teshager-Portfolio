@@ -50,7 +50,8 @@ function LandingPage() {
       onScroll={onScroll}
       className="flex flex-col bg-light-1 px-4 md:px-20 items-center scroll-smooth gap-6"
     >
-      <div className="flex flex-col w-full items-center justify-center md:min-h-screen px-0 md:px-12 pt-24 md:pt-4">
+      {/* Ensure top padding matches the fixed AppBar height so the profile image isn't covered */}
+      <div className="flex flex-col w-full items-center justify-center md:min-h-screen px-0 md:px-12 pt-24 md:pt-24">
         <AppBar scrolldown={!scrollUp} scrollZero={scrollZero} />
         <ResumeButton />
         <HomePage />
@@ -64,9 +65,9 @@ function LandingPage() {
         <div className="flex flex-col md:flex-row justify-center items-center gap-2 md:gap-6">
           <a
             className="text-md text-darker-2 font-medium"
-            href="mailto:dawit201121@gmail.com"
+            href="mailto:dawit.teshager2015@gmail.com"
           >
-            dawit201121@gmail.com
+            dawit.teshager2015@gmail.com
           </a>
           <div className="text-md text-darker-2 font-medium">
             +251-975627438
@@ -120,7 +121,7 @@ function LandingPage() {
         <div className="grow"></div>
         <div className="rounded-full text-slate-500 rotate-90 font-roboto font-bold text-xl tracking-widest">
           {" "}
-          2023{" "}
+          {new Date().getFullYear()}{" "}
         </div>
         <div className="grow w-0.5 h-full invisible md:visible bg-red-500 mt-10 bg-gradient-to-t from-light-1 to-slate-500 opacity-50 rounded-full"></div>
       </div>

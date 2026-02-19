@@ -2,15 +2,125 @@
     "works": [
         {
             "id": 0,
+            "image": "nicklas.png",
+            "name": "Mereb Technologies",
+            "shortName": "Nicklas",
+            "title": "Tech Lead / Backend (Django REST) @Nicklas",
+            "link": "",
+            "from": "February 2024",
+            "to": "Present",
+            "desc": "Led backend development for Nicklas, a feature-rich e-commerce platform using Django Rest Framework (DRF) for the backend and Next.js for the frontend.",
+            "details": "Multi-Vendor Support – Enabled multiple businesses to create and manage their own stores, products, and orders independently. Order & Inventory Management – Implemented purchase order (PO) workflows, inventory tracking, and bundled product handling. Campaign Management – Developed tools for creating and managing promotional campaigns, including product selection, employee group targeting, and custom configurations. Advanced Admin Features – Customized Django admin to support column visibility toggling, date filters, and export functionality for detailed reporting. Data Handling & Optimization – Built logic to merge duplicate rows in order summaries, optimize price calculations, and handle edge cases in delivery and voucher processing. Integration & Automation – Automated export of order and campaign data, integrated delivery tracking, and improved admin UX with enhanced workflows.",
+            "techs": [
+                "Django",
+                "Django REST Framework",
+                "Next.js",
+                "PostgreSQL",
+                "Docker",
+                "Python"
+            ],
+            "tech_icons":[
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/django/django-plain-wordmark.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nextjs/nextjs-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg"
+            ],
+            "image2": "nicklas1.png",
+            "source": ""
+        },
+        {
+            "id": 1,
+            "image": "mereb.png",
+            "name": "Mereb Technologies",
+            "shortName": "Mereb ATS",
+            "title": "Backend Developer (Node.js) @Mereb ATS",
+            "link": "https://merebtechnology.com/",
+            "from": "September 2024",
+            "to": "February 2024",
+            "desc": "Mereb ATS- Applicant Tracking System. Worked on Mereb ATS, a talent acquisition system built using Node.js for the backend and Next.js for the frontend.",
+            "details": "Worked at Mereb Technologies on Mereb ATS. Developed features such as automated CV parsing, job postings, and candidate shortlisting to optimize recruitment workflows. Implemented a challenge board for skill assessment and candidate ranking based on performance.",
+            "techs": [
+                "Node.js",
+                "Next.js",
+                "Docker",
+                "PostgreSQL"
+            ],
+            "tech_icons":[
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nextjs/nextjs-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg"
+            ],
+            "image2": "mereb.png",
+            "source": ""
+        }, 
+        {
+            "id": 2,
+            "image": "mereb.png",
+            "name": "Mereb Technologies",
+            "shortName": "Sulala",
+            "title": "Backend Lead (DRF) @Sulala",
+            "link": "https://merebtechnology.com/",
+            "from": "February 2023",
+            "to": "September 2023",
+            "desc": "Led backend development for Sulala, a farm management and e-commerce platform designed to track animal records from birth to sale, including vaccination and medical history.",
+            "details": "Built using Django Rest Framework (DRF) with a scalable backend architecture. Developed an integrated e-commerce platform for selling animals and related products, and implemented features for tracking animal records, vaccination and medical history.",
+            "techs": [
+                "Django",
+                "Django REST Framework",
+                "PostgreSQL",
+                "Docker"
+            ],
+            "tech_icons":[
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/django/django-plain-wordmark.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg"
+            ],
+            "image2": "sulala.jpg",
+            "source": ""
+        }
+        ,
+        {
+            "id": 3,
+            "image": "Eskalate.png",
+            "name": "Eskalate Africa",
+            "shortName": "Eskalate",
+            "title": "Backend Developer, Eskalate",
+            "link": "https://eskalate.io/",
+            "from": "July 2022",
+            "to": "February 2023",
+            "desc": "Worked as a backend developer using Django Rest Framework (DRF) technologies for the A2SV community portal.",
+            "details": "07/2022 – 02/2023 | Addis Ababa, Ethiopia. Worked on backend services for the A2SV community portal. Implemented features using Django and Django REST Framework, and contributed to CI/CD pipelines to automate testing and deployments for faster, higher-quality releases.",
+            "techs": [
+                "Django",
+                "Django REST Framework",
+                "Docker",
+                "Git",
+                "PostgreSQL"
+            ],
+            "tech_icons":[
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/django/django-plain-wordmark.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg",
+                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg"
+            ],
+            "image2": "Eskalate.png",
+            "source": ""
+        }, 
+          {
+            "id": 4,
             "image": "santimpay.png",
             "name": "Santim  Pay",
             "shortName": "SantimPay",
-            "title": "Golang Backend Developer",
+            "title": "Backend Developer, SantimPay",
             "link": "https://santimpay.com/",
-            "from": "September 2022",
-            "to": "January 2023",
-            "desc": "I was responsible for developing the backend of the Santim Pay mobile application using Golang",
-            "details": "Santim Pay is a mobile application that helps people to send money to their loved ones in Ethiopia. I was responsible for developing the backend of the Santim Pay mobile application using Golang.",
+            "from": "January 2021",
+            "to": "January 2022",
+            "desc": "Worked as a Golang backend developer on the Santim Pay mobile payment platform.",
+            "details": "Santim Pay is a mobile application that helps people send money within Ethiopia. Worked on backend services, API design, and system reliability. Contributed to payment gateway integration and external API integrations to improve transaction processing and reliability.",
             "techs": [
                 "VS Code",
                 "Git",
@@ -22,37 +132,10 @@
                 "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original-wordmark.svg"
                 
             ],
+            "image2": "santimpay.png",
             "source": "#"
-        },
-        {
-            "id": 1,
-            "image": "Eskalate.png",
-            "name": "Eskalate Africa",
-            "shortName": "Eskalate",
-            "title": ".NET Backend Developer",
-            "link": "https://eskalate.io/",
-            "from": "Junuary 2023",
-            "to": "August 2023",
-            "desc": "I was responsible for developing the backend of A2SV community portal using .NET",
-            "details": "A2SV  is a community portal that helps young Ethiopian to learn about data structure and algorithm. I was responsible for developing the backend of the A2SV community portal using .NET.",
-            "techs": [
-                ".NET",
-                "Docker",
-                "Git",
-                "C#",
-                "PostgreSQL"
-                
-            ],
-            "tech_icons":[
-                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/dot-net/dot-net-original.svg",
-                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg",
-                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg",
-                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg",
-                "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/csharp/csharp-original.svg"
-                
-            ],
-            "source": ""
         }
+        
        
     ]
 }

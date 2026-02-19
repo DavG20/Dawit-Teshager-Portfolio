@@ -17,35 +17,58 @@ import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 const skills = [
   {
     id: 0,
-    title: ".NET",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/dot-net/dot-net-original.svg",
+    title: "Python",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg",
+    level: "Expert",
   },
   {
     id: 1,
-    title: "Golang",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/go/go-original.svg",
+    title: "Django",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/django/django-plain-wordmark.svg",
+    level: "Expert",
   },
   {
     id: 2,
-    title: "Python",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg",
+    title: "Node.js",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg",
+    level: "Expert",
   },
   {
     id: 3,
-    title: "ReactJS",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg",
+    title: "Golang",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/go/go-original.svg",
+    level: "Expert",
+    
   },
-
   {
     id: 4,
-    title: "Node.js",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg",
+    title: "Next.js",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nextjs/nextjs-original.svg",
+    level: "Expert",
   },
-
   {
     id: 5,
-    title: "Django",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/django/django-plain-wordmark.svg",
+    title: "Docker",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg",
+    level: "Proficient",
+  },
+  {
+    id: 6,
+    title: "PostgreSQL",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg",
+    level: "Proficient",
+  },
+  {
+    id: 7,
+    title: ".NET",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/dot-net/dot-net-original.svg",
+    level: "Competent",
+  },
+  {
+    id: 8,
+    title: "React",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg",
+    level: "Proficient",
   },
 ];
 
@@ -93,14 +116,13 @@ function HomePage() {
             <br />
             <div className="flex justify-center">
               <div className="font-roboto font-normal text-md md:text-lg text-slate-500 lg:w-2/3 text-justify md:text-center">
-                I'm Diligent and experienced software engineer with over 3 years
-                of proven expertise in Golang, .NET backend technologies,
-                Django, and React. Passionate about solving problems and driving
-                innovation in advanced environments. Eager to join a dynamic
-                team and deliver high-quality solutions for global clients.
-                Committed to continuous learning and collaborative success.
-                Additionally, I am dedicated to rapidly learning and mastering
-                new programming languages when necessary.
+                <p className="mb-4">
+                  I am Dawit Teshager, a backend developer with over 5 years of experience specializing in Python (Django), Golang, and scalable backend architectures. I have designed and optimized high-performance, distributed systems, ensuring reliability and scalability in production environments. On the frontend, I have experience building interactive, user-friendly applications using React, Next.js, and modern JavaScript/​TypeScript frameworks, enabling seamless integration between backend services and client interfaces.
+                </p>
+
+                <p>
+                  I have a strong foundation in data structures and algorithms (DSA), allowing me to build efficient solutions and quickly adapt to new technologies. I have experience leading backend projects, mentoring junior developers, and driving best practices in system design, API development, and database optimization. I am passionate about solving complex problems, optimizing performance, and contributing to open-source communities. I thrive in fast-paced environments, taking ownership of critical backend and frontend services while ensuring scalability, maintainability, and a great user experience.
+                </p>
               </div>
             </div>
 
@@ -108,7 +130,7 @@ function HomePage() {
             <div className="flex gap-6">
               <div className="flex group items-center">
                 <a
-                  href="https://drive.google.com/file/d/1YdgtBKL8E4Z2CPAqwrG8wVhfFskMiMs_/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1K0DyssfoCuTG5za7SLXGA8ePW1pt93cd/view?usp=sharing"
                   className="px-4 py-2 rounded-full font-roboto text-white text-md bg-darker-2 group-hover:bg-white mr-0 group-hover:mr-2 group-hover:text-orange-dark duration-200"
                 >
                   My Resume
@@ -137,7 +159,7 @@ function HomePage() {
                   return (
                     <div
                       key={skill.id}
-                      className="px-5 py-3 rounded-full bg-white flex gap-3 items-center hover:scale-110 duration-200"
+                      className="px-4 py-2 rounded-full md:rounded-lg bg-white flex gap-3 items-center hover:scale-110 duration-200"
                     >
                       <img
                         src={skill.icon}
@@ -146,10 +168,10 @@ function HomePage() {
                         width="20"
                         height="20"
                       />
-                      <p className="text-sm text-slate-500 font-roboto text-center">
-                        {" "}
-                        {skill.title}{" "}
-                      </p>
+                      <div className="flex flex-col md:flex-row md:items-center">
+                        <p className="text-sm text-slate-500 font-roboto">{skill.title}</p>
+                        <p className="text-xs text-gray-400 -mt-1 md:ml-2 hidden md:block">{skill.level}</p>
+                      </div>
                     </div>
                   );
                 })}

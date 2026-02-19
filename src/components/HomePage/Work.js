@@ -34,15 +34,15 @@ function Work() {
             return (
               <div key={work.id} className="flex flex-col w-full">
                 <div
-                  className="w-full relative"
+                  className="w-full relative overflow-hidden"
                   style={{ height: 600 }}
                   key={work.name}
                 >
-                  {/* Background Image */}
+                  {/* Project Image (show full image without cropping like DetailsPage) */}
                   <img
                     src={require(`../../asset/works/${work.image}`)}
                     alt="project"
-                    className="absolute top-0 left-0 z-20 w-full h-96 object-cover"
+                    className="absolute inset-0 z-20 w-full h-full object-contain object-center"
                   />
 
                   {/* Background Overlay */}
