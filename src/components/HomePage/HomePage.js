@@ -117,7 +117,7 @@ function HomePage() {
             <div className="flex justify-center">
               <div className="font-roboto font-normal text-md md:text-lg text-slate-500 lg:w-2/3 text-justify md:text-center">
                 <p className="mb-4">
-                  I am Dawit Teshager, a backend developer with over 5 years of experience specializing in Python (Django), Golang, and scalable backend architectures. I have designed and optimized high-performance, distributed systems, ensuring reliability and scalability in production environments. On the frontend, I have experience building interactive, user-friendly applications using React, Next.js, and modern JavaScript/​TypeScript frameworks, enabling seamless integration between backend services and client interfaces.
+                  I am Dawit Teshager, a Fullstack developer with over 5 years of experience specializing in Python (Django), Golang, and scalable backend architectures. I have designed and optimized high-performance, distributed systems, ensuring reliability and scalability in production environments. On the frontend, I have experience building interactive, user-friendly applications using React, Next.js, and modern JavaScript/​TypeScript frameworks, enabling seamless integration between backend services and client interfaces.
                 </p>
 
                 <p>
